@@ -1,0 +1,9 @@
+D:\Project C Any\LT.Net\Paint\Server\obj\Debug\Server.Properties.Resources.resources
+D:\Project C Any\LT.Net\Paint\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\Project C Any\LT.Net\Paint\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\Project C Any\LT.Net\Paint\Server\obj\Debug\Server.Server.resources
+D:\Project C Any\LT.Net\Paint\Server\bin\Debug\Server.exe.config
+D:\Project C Any\LT.Net\Paint\Server\bin\Debug\Server.exe
+D:\Project C Any\LT.Net\Paint\Server\bin\Debug\Server.pdb
+D:\Project C Any\LT.Net\Paint\Server\obj\Debug\Server.exe
+D:\Project C Any\LT.Net\Paint\Server\obj\Debug\Server.pdb
