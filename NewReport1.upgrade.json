@@ -1,0 +1,131 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "",
+    "targetDisplayName": ".NET 8.0"
+  },
+  "analysisStartTime": "2024-05-22T14:28:04.8464108Z",
+  "analysisEndTime": "2024-05-22T14:28:05.0274102Z",
+  "stats": {
+    "summary": {
+      "projects": 2,
+      "issues": 2,
+      "incidents": 4,
+      "effort": 4
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 4,
+        "Optional": 0,
+        "Potential": 0,
+        "Information": 0
+      },
+      "category": {
+        "Project": 4
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "C:\\Users\\RvP\\Downloads\\Compressed\\Paint-Online-main\\Paint\\Paint.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "ruleInstances": [
+        {
+          "incidentId": "b679310a-e992-45c5-9d0e-0e7f56650503",
+          "ruleId": "Project.0001",
+          "projectPath": "C:\\Users\\RvP\\Downloads\\Compressed\\Paint-Online-main\\Paint\\Paint.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "C:\\Users\\RvP\\Downloads\\Compressed\\Paint-Online-main\\Paint\\Paint.csproj"
+          }
+        },
+        {
+          "incidentId": "038f4374-b3b2-4272-9f01-1abe65bcf8f9",
+          "ruleId": "Project.0002",
+          "projectPath": "C:\\Users\\RvP\\Downloads\\Compressed\\Paint-Online-main\\Paint\\Paint.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "C:\\Users\\RvP\\Downloads\\Compressed\\Paint-Online-main\\Paint\\Paint.csproj",
+            "snippet": "Current: .NETFramework,Version=v4.7.2\nNew: net8.0-windows"
+          }
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\RvP\\Downloads\\Compressed\\Paint-Online-main\\Server\\Server.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "ruleInstances": [
+        {
+          "incidentId": "586b7c60-8d65-4bc3-b306-1e3ed5802486",
+          "ruleId": "Project.0001",
+          "projectPath": "C:\\Users\\RvP\\Downloads\\Compressed\\Paint-Online-main\\Server\\Server.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "C:\\Users\\RvP\\Downloads\\Compressed\\Paint-Online-main\\Server\\Server.csproj"
+          }
+        },
+        {
+          "incidentId": "df52f8cc-5ed3-40a4-8e5e-d3d1c2bf6ce8",
+          "ruleId": "Project.0002",
+          "projectPath": "C:\\Users\\RvP\\Downloads\\Compressed\\Paint-Online-main\\Server\\Server.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "C:\\Users\\RvP\\Downloads\\Compressed\\Paint-Online-main\\Server\\Server.csproj",
+            "snippet": "Current: .NETFramework,Version=v4.7.2\nNew: net8.0-windows"
+          }
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "Project.0001": {
+      "id": "Project.0001",
+      "description": "Project file needs to be converted to SDK style. Modern .NET framework projects require a change in the project file format and use SDK corresponding to project flavor and functionality.",
+      "label": "Project file needs to be converted to SDK style",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to correspinding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in moderrn .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}

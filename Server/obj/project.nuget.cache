@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AKXReuCFrWQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\RvP\\Downloads\\Compressed\\Paint-Online-main\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RvP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\RvP\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
